@@ -11,7 +11,7 @@ var _react = _interopRequireWildcard(require("react"));
 
 var _all = require("gsap/all");
 
-var _enterprise = _interopRequireDefault(require("./enterprise.svg"));
+var _enterprise = _interopRequireDefault(require("../../assets/svg/enterprise.svg"));
 
 require("./style.scss");
 

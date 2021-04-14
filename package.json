@@ -1,12 +1,13 @@
 {
   "name": "@rdw/animations",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Package of animations for the RDW website.",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "develop": "webpack serve --mode development",
     "transpile": "babel src -d dist",
+    "build": "babel src -d dist && cp -R src/assets dist/",
     "prepublishOnly": "npm run transpile"
   },
   "author": "Joshua Tyree <joshuat@createthebridge.com> (http://github.com/Shozokui)",
@@ -27,6 +28,7 @@
     "@svgr/webpack": "^5.5.0",
     "autoprefixer": "^10.2.5",
     "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^8.1.1",
     "css-loader": "^5.2.1",
     "gsap": "^3.6.1",
     "html-webpack-plugin": "^5.3.1",

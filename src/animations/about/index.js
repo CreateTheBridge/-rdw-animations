@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react"
 import { TimelineMax, TweenMax, Power1 } from "gsap/all"
 
-import AboutSvg from "./about.svg"
+import AboutSvg from "../../assets/svg/about.svg"
 
 import "./style.css"
 

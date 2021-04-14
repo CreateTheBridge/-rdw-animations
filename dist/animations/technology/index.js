@@ -11,7 +11,7 @@ var _react = _interopRequireWildcard(require("react"));
 
 var _all = require("gsap/all");
 
-var _technology = _interopRequireDefault(require("./technology.svg"));
+var _technology = _interopRequireDefault(require("../../assets/svg/technology.svg"));
 
 require("./style.scss");
 

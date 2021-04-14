@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react"
 import { TimelineMax, TweenMax, Power1 } from "gsap/all"
-import AiSvg from "./ai.svg"
+import AiSvg from "../../assets/svg/ai.svg"
 
 import "./style.scss"
 

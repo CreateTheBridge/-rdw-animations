@@ -11,7 +11,7 @@ var _react = _interopRequireWildcard(require("react"));
 
 var _all = require("gsap/all");
 
-var _rdwheader = _interopRequireDefault(require("./rdwheader.svg"));
+var _rdwheader = _interopRequireDefault(require("../../assets/svg/rdwheader.svg"));
 
 require("./style.css");
 

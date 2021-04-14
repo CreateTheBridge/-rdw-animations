@@ -11,7 +11,7 @@ var _react = _interopRequireWildcard(require("react"));
 
 var _all = require("gsap/all");
 
-var _cybersecurity = _interopRequireDefault(require("./cybersecurity.svg"));
+var _cybersecurity = _interopRequireDefault(require("../../assets/svg/cybersecurity.svg"));
 
 require("./style.scss");
 

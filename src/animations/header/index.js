@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react"
 import { TimelineMax, TweenMax, Power1 } from "gsap/all"
-import RdwHeader from "./rdwheader.svg"
+import RdwHeader from "../../assets/svg/rdwheader.svg"
 
 import "./style.css"
 

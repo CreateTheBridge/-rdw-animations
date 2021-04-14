@@ -11,7 +11,7 @@ var _react = _interopRequireWildcard(require("react"));
 
 var _all = require("gsap/all");
 
-var _bigdata = _interopRequireDefault(require("./bigdata.svg"));
+var _bigdata = _interopRequireDefault(require("../../assets/svg/bigdata.svg"));
 
 require("./style.scss");
 

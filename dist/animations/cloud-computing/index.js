@@ -11,7 +11,7 @@ var _react = _interopRequireWildcard(require("react"));
 
 var _all = require("gsap/all");
 
-var _cloudcomputing = _interopRequireDefault(require("./cloudcomputing.svg"));
+var _cloudcomputing = _interopRequireDefault(require("../../assets/svg/cloudcomputing.svg"));
 
 require("./style.scss");
 

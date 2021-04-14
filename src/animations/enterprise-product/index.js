@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react"
 import { TimelineMax, TweenMax, Power1 } from "gsap/all"
-import EnterpriseProduct from "./enterpriseproduct.svg"
+import EnterpriseProduct from "../../assets/svg/enterpriseproduct.svg"
 import "./style.scss"
 
 

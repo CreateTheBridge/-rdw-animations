@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react"
 import { TimelineMax, TweenMax, Power1 } from "gsap/all"
-import EnterpriseSvg from "./enterprise.svg"
+import EnterpriseSvg from "../../assets/svg/enterprise.svg"
 import "./style.scss"
 
 const findElement = (ref, selector) => {

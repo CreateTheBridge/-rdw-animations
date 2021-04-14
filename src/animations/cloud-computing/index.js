@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react"
 import { TimelineMax, TweenMax, Power1 } from "gsap/all"
-import CloudComputing from "./cloudcomputing.svg"
+import CloudComputing from "../../assets/svg/cloudcomputing.svg"
 import "./style.scss"
 
 
