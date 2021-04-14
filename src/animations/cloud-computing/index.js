@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react"
 import { TimelineMax, TweenMax, Power1 } from "gsap/all"
-import CloudComputing from "../../assets/svg/cloudcomputing.svg"
+import { Cloudcomputing } from "../../svg"
 
 
 const findElement = (ref, selector) => {
@@ -36,7 +36,7 @@ const CloudComputingAnimation = () => {
 
   return (
     <div className="cloud-computing-animation" ref={elem}>
-      <CloudComputing />
+      <Cloudcomputing />
     </div>
   )
 }

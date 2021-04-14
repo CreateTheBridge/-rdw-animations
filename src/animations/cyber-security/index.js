@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from "react"
 import { TimelineMax, TweenMax, Power1 } from "gsap/all"
-import CyberSecuritySvg from "../../assets/svg/cybersecurity.svg"
+
+import { Cybersecurity } from "../../svg"
 
 
 const findElement = (ref, selector) => {
@@ -36,7 +37,7 @@ const CyberSecurityAnimation = () => {
 
   return (
     <div className="cyber-security-animation" ref={elem}>
-      <CyberSecuritySvg />
+      <Cybersecurity />
     </div>
   )
 }

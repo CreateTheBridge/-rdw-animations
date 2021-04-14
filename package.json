@@ -1,6 +1,6 @@
 {
   "name": "@rdw/animations",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Package of animations for the RDW website.",
   "main": "dist/index.js",
   "scripts": {

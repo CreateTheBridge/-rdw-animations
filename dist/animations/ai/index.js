@@ -13,6 +13,8 @@ var _all = require("gsap/all");
 
 var _ai = _interopRequireDefault(require("../../assets/svg/ai.svg"));
 
+var _svg = require("../../svg");
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
@@ -58,7 +60,7 @@ var AiAnimation = function AiAnimation() {
   return /*#__PURE__*/_react["default"].createElement("div", {
     className: "ai-animation",
     ref: elem
-  }, /*#__PURE__*/_react["default"].createElement(_ai["default"], null));
+  }, /*#__PURE__*/_react["default"].createElement(_svg.Ai, null));
 };
 
 var _default = AiAnimation;

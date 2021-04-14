@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react"
 import { TimelineMax, TweenMax, Power1 } from "gsap/all"
-import EnterpriseSvg from "../../assets/svg/enterprise.svg"
+import { Enterprise } from "../../svg"
 
 
 const findElement = (ref, selector) => {
@@ -32,7 +32,7 @@ const EnterpriseCollabAnimation = () => {
 
   return (
     <div className="enterprise-collab-animation" ref={elem}>
-      <EnterpriseSvg />
+      <Enterprise />
     </div>
   )
 }

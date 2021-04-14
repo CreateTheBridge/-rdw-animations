@@ -11,9 +11,7 @@ var _react = _interopRequireWildcard(require("react"));
 
 var _all = require("gsap/all");
 
-var _cloudcomputing = _interopRequireDefault(require("../../assets/svg/cloudcomputing.svg"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+var _svg = require("../../svg");
 
 function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
 
@@ -60,7 +58,7 @@ var CloudComputingAnimation = function CloudComputingAnimation() {
   return /*#__PURE__*/_react["default"].createElement("div", {
     className: "cloud-computing-animation",
     ref: elem
-  }, /*#__PURE__*/_react["default"].createElement(_cloudcomputing["default"], null));
+  }, /*#__PURE__*/_react["default"].createElement(_svg.Cloudcomputing, null));
 };
 
 var _default = CloudComputingAnimation;

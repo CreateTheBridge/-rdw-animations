@@ -11,9 +11,7 @@ var _react = _interopRequireWildcard(require("react"));
 
 var _all = require("gsap/all");
 
-var _cybersecurity = _interopRequireDefault(require("../../assets/svg/cybersecurity.svg"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+var _svg = require("../../svg");
 
 function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
 
@@ -63,7 +61,7 @@ var CyberSecurityAnimation = function CyberSecurityAnimation() {
   return /*#__PURE__*/_react["default"].createElement("div", {
     className: "cyber-security-animation",
     ref: elem
-  }, /*#__PURE__*/_react["default"].createElement(_cybersecurity["default"], null));
+  }, /*#__PURE__*/_react["default"].createElement(_svg.Cybersecurity, null));
 };
 
 var _default = CyberSecurityAnimation;

@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from "react"
 import { TimelineMax, TweenMax, Power1 } from "gsap/all"
 import AiSvg from "../../assets/svg/ai.svg"
+import { Ai } from "../../svg"
 
 const findElement = (ref, selector) => {
   if (!ref) return
@@ -33,7 +34,7 @@ const AiAnimation = () => {
 
   return (
     <div className="ai-animation" ref={elem}>
-      <AiSvg />
+      <Ai />
     </div>
   )
 }

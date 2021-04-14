@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react"
 import { TimelineMax, TweenMax, Power1 } from "gsap/all"
 
-import AboutSvg from "../../assets/svg/about.svg"
+import { About } from "../../svg"
 
 
 const findElement = (ref, selector) => {
@@ -40,7 +40,7 @@ const AboutAnimation = () => {
 
   return (
     <div className="about-animation"  ref={elem}>
-      <AboutSvg />
+      <About />
     </div>
   )
 }

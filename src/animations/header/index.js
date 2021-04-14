@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react"
 import { TimelineMax, TweenMax, Power1 } from "gsap/all"
-import RdwHeader from "../../assets/svg/rdwheader.svg"
+import { Rdwheader } from "../../svg"
 
 
 const HeaderAnimation = () => {
@@ -52,7 +52,7 @@ const HeaderAnimation = () => {
 
   return (
     <div className="header-animation" ref={elem}>
-      <RdwHeader />
+      <Rdwheader />
     </div>
   )
 }

@@ -11,9 +11,7 @@ var _react = _interopRequireWildcard(require("react"));
 
 var _all = require("gsap/all");
 
-var _enterpriseproduct = _interopRequireDefault(require("../../assets/svg/enterpriseproduct.svg"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+var _svg = require("../../svg");
 
 function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }
 
@@ -57,7 +55,7 @@ var EnterpriseProductAnimation = function EnterpriseProductAnimation() {
   return /*#__PURE__*/_react["default"].createElement("div", {
     className: "enterprise-product-animation",
     ref: elem
-  }, /*#__PURE__*/_react["default"].createElement(_enterpriseproduct["default"], null));
+  }, /*#__PURE__*/_react["default"].createElement(_svg.Enterpriseproduct, null));
 };
 
 var _default = EnterpriseProductAnimation;

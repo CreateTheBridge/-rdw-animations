@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from "react"
 import { TimelineMax, TweenMax, Power1 } from "gsap/all"
-import BigdataSvg from "../../assets/svg/bigdata.svg"
+
+import { Bigdata } from "../../svg"
 
 const findElement = (ref, selector) => {
   if (!ref) return
@@ -32,7 +33,7 @@ const BigdataAnimation = () => {
 
   return (
     <div className="big-data-animation" ref={elem}>
-      <BigdataSvg />
+      <Bigdata />
     </div>
   )
 }
