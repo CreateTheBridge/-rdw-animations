@@ -2,8 +2,6 @@ import React, { useRef, useEffect } from "react"
 import { TimelineMax, TweenMax, Power1 } from "gsap/all"
 import RdwHeader from "../../assets/svg/rdwheader.svg"
 
-import "./style.css"
-
 
 const HeaderAnimation = () => {
   const elem = useRef(null)

@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from "react"
 import { TimelineMax, TweenMax, Power1 } from "gsap/all"
 import Policy from "../../assets/svg/policy.svg"
-import "./style.scss"
 
 
 const findElement = (ref, selector) => {

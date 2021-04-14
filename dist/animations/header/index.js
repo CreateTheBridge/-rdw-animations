@@ -13,8 +13,6 @@ var _all = require("gsap/all");
 
 var _rdwheader = _interopRequireDefault(require("../../assets/svg/rdwheader.svg"));
 
-require("./style.css");
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function _getRequireWildcardCache() { return cache; }; return cache; }

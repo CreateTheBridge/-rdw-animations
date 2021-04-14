@@ -3,7 +3,6 @@ import { TimelineMax, TweenMax, Power1 } from "gsap/all"
 
 import AboutSvg from "../../assets/svg/about.svg"
 
-import "./style.css"
 
 const findElement = (ref, selector) => {
   if (!ref) return
@@ -40,7 +39,7 @@ const AboutAnimation = () => {
   })
 
   return (
-    <div className="about-animation" ref={elem}>
+    <div className="about-animation"  ref={elem}>
       <AboutSvg />
     </div>
   )

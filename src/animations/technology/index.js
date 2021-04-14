@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from "react"
 import { TimelineMax, TweenMax, Power1 } from "gsap/all"
 import TechnologySvg from "../../assets/svg/technology.svg"
-import "./style.scss"
 
 const findElement = (ref, selector) => {
   if (!ref) return

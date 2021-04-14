@@ -64,6 +64,8 @@ Object.defineProperty(exports, "TechnologyAnimation", {
   }
 });
 
+require("./assets/styles/style.scss");
+
 var _header = _interopRequireDefault(require("./animations/header"));
 
 var _about = _interopRequireDefault(require("./animations/about"));

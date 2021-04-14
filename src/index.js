@@ -1,3 +1,5 @@
+import "./assets/styles/style.scss"
+
 export { default as HeaderAnimation } from "./animations/header"
 export { default as AboutAnimation } from "./animations/about"
 export { default as AiAnimation } from "./animations/ai"

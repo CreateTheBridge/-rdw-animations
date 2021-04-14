@@ -2,8 +2,6 @@ import React, { useRef, useEffect } from "react"
 import { TimelineMax, TweenMax, Power1 } from "gsap/all"
 import AiSvg from "../../assets/svg/ai.svg"
 
-import "./style.scss"
-
 const findElement = (ref, selector) => {
   if (!ref) return
   return ref.querySelector(`#ai_svg__${selector}`)
